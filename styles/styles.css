@@ -1,0 +1,88 @@
+
+
+/* 
+
+
+#listOfResults{
+    display: none;
+} */
+body{
+    background-image: url(./images/depositphotos_21729293-stock-photo-poker-table.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    color: rgb(250, 251, 253);
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0 auto;
+    
+}
+#h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 40px;
+    font-size: 10pt;
+    
+    align-items: right;
+    /* background-image: url(./images/Poker\ Chips.jpeg); */
+    /* opacity: .6; */
+    /* border-bottom: 4mm ridge  rgb(85, 121, 56); */
+    border-radius: 10px 40px 40px 10px;
+    background-color: rgb(41, 23, 25, 0.5);
+    text-shadow: 2px 2px 4px #d15b5b;
+   
+}
+input{
+    width: 60px;
+    font-size: 30pt;
+    border-radius: 20px;
+    outline: none;
+    margin: 20px;
+    
+}
+.Question{
+    display: flex;
+    flex-direction: column;
+    font-size: 30pt;
+    margin: 30px;
+    
+    
+}
+.main-content-box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 40px 40px 10px;
+    height:350px;
+    width: 650px;
+    text-align: center;
+    align-items: center;
+    float: left;
+    
+    /* background-image: url(./images/metal.jpg);  */
+    background-color: rgba(41, 23, 25, 0.5);
+
+    
+}
+
+#list-box{
+    display: inline-block;
+    width: 100px;
+    text-align: initial;
+    background-color: rgba(41, 23, 25, 0.5);
+    border-radius: 20px;
+
+}
+
+div{
+    /* background-color:plum; */
+    margin: 23px;
+}
+span{
+    font-size: 15pt;
+}
+button{
+    /* background-color: black; */
+    color: black;
+    text-shadow: 2px 2px 4px #d15b5b;
+}
